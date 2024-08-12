@@ -16,19 +16,16 @@ class PlaceholderListtile extends StatelessWidget {
       color: Colors.white,
       elevation: .25,
       child: ListTile(
-          contentPadding: const EdgeInsets.only(left: 18),
           leading: CircleAvatar(
-            onBackgroundImageError: (exception, stackTrace) {
-              print(exception);
-            },
-            onForegroundImageError: (exception, stackTrace) {
-              print(exception);
-            },
+            onBackgroundImageError: (exception, stackTrace) {},
+            onForegroundImageError: (exception, stackTrace) {},
             foregroundImage: NetworkImage(placeHolderModel.thumbnailUrl!),
             backgroundImage: NetworkImage(placeHolderModel.thumbnailUrl!),
           ),
           title: Text(
             placeHolderModel.title!,
+            softWrap: true,
+            overflow: TextOverflow.ellipsis,
             style: const TextStyle(
               fontWeight: FontWeight.w600,
               fontSize: 14,
@@ -38,7 +35,7 @@ class PlaceholderListtile extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Album ID - ${placeHolderModel.albumId}',
+                'ID - ${placeHolderModel.id}',
                 style: const TextStyle(
                   fontWeight: FontWeight.w400,
                   fontSize: 12,
