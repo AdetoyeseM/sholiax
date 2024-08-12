@@ -8,11 +8,35 @@ It's configured with [BLoC] and [RxDart] for state management, [Navigation 2.0],
 <br>
 <br> Please star⭐ the repo if you like what you see😉.
 
+## Getting started
+
+#### 1. [Set up Flutter](https://flutter.dev/)
+
+#### 2. Clone the repo
+
+```sh
+$ git clone https://github.com/AdetoyeseM/sholiax 
+```
+
+#### 3. Run the app
+
+```sh
+$ flutter pub get
+$ flutter run
+```
+
+
+## DOWNLOAD APK FOR TEST
+
+#### 1. [APK LINK](https://github.com/AdetoyeseM/sholiax/blob/main/apk/app-release.apk)
+
 ## 💻 Requirements
 
 - Any Operating System (ie. MacOS X, Linux, Windows)
 - Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
 - A little knowledge of Dart and Flutter
+
+
 
 ## 📸 ScreenShots
 
@@ -39,6 +63,4 @@ It's configured with [BLoC] and [RxDart] for state management, [Navigation 2.0],
 
 
   
-## Tests
 
-The test package contains unit tests for almost all components. Be sure to give it a look.
