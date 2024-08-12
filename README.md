@@ -1,6 +1,4 @@
-# shopliax
-# Flutter Template
-
+# shopliax 
 ShopLiax - A simple TODO list app. This template provides simple UI and scalable project structure that goes beyond the simple counter example. 
 
 The app has basic selection screens,task list, task creation, and an sample API list screen. 
