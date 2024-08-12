@@ -7,44 +7,38 @@ The app has basic selection screens,task list, task creation, and an sample API 
 
 It's configured with [BLoC] and [RxDart] for state management, [Navigation 2.0], [GetIt] as service locator, Repository Pattern, and util and convenience methods. 
 
+<br>
+<br> Please star⭐ the repo if you like what you see😉.
+
+## 💻 Requirements
+
+- Any Operating System (ie. MacOS X, Linux, Windows)
+- Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
+- A little knowledge of Dart and Flutter
+
+## 📸 ScreenShots
+
 <br />
 <div>
-  &emsp;&emsp;&emsp;
-  <img src="https://github.com/AdetoyeseM/sholiax/blob/main/screenshots/flutter_01.png" alt="Light theme" width="330">
-  &emsp;&emsp;
+ 
+  <img src="https://github.com/AdetoyeseM/sholiax/blob/main/screenshots/flutter_01.png" alt="Light theme" width="320">
   <img src="https://github.com/AdetoyeseM/sholiax/blob/main/screenshots/flutter_02.png" alt="Dark theme" width="320">  
-    &emsp;&emsp;
-  <img src="https://github.com/AdetoyeseM/sholiax/blob/main/screenshots/flutter_03.png" alt="Dark theme" width="320">    &emsp;&emsp;
-  <img src="https://github.com/AdetoyeseM/sholiax/blob/main/screenshots/flutter_04.png" alt="Dark theme" width="320">    &emsp;&emsp;
-  <img src="https://github.com/AdetoyeseM/sholiax/blob/main/screenshots/flutter_05.png" alt="Dark theme" width="320">    &emsp;&emsp;
+  <img src="https://github.com/AdetoyeseM/sholiax/blob/main/screenshots/flutter_03.png" alt="Dark theme" width="320">    
+  <img src="https://github.com/AdetoyeseM/sholiax/blob/main/screenshots/flutter_04.png" alt="Dark theme" width="320">    
+  <img src="https://github.com/AdetoyeseM/sholiax/blob/main/screenshots/flutter_05.png" alt="Dark theme" width="320">     
   <img src="https://github.com/AdetoyeseM/sholiax/blob/main/screenshots/flutter_06.png" alt="Dark theme" width="320">  
 </div>
 <br />
+## 🔌 Plugins
 
-[Navigation 2.0]: https://medium.com/flutter/learning-flutters-new-navigation-and-routing-system-7c9068155ade
-
-# First Run
-
-The project is configured with mock data if you run the **MOCK** flavor. See the next section for configuring run configurations.
-
-After installing the package dependencies with 
-
-```
-flutter pub get
-```
-
-run the code generation tool 
+| Name                                                    | Usage                                               |
+| ------------------------------------------------------- | --------------------------------------------------- |
+| [**RXDart**](https://pub.dev/packages/rxdart)       | RxDart is an implementation of the popular ReactiveX api for asynchronous programming, leveraging the native Dart Streams api   
+| [**GETIT**](https://pub.dev/packages/get_it)        | A lightweight service locator  
+| [**SharedPreferences**](https://pub.dev/packages/shared_preferences)        | Flutter plugin for reading and writing simple key-value pairs. Wraps NSUserDefaults on iOS and SharedPreferences on Android
+| [**Http**](https://pub.dev/packages/http)        | A composable, Future-based library for making HTTP requests
 
 
-
-
-## Dependency Management
-
-Dependencies are managed in the [`service_locator.dart`][service_locator] file. This sample uses [GetIt], a lightweight service locator. There are 2 scopes defined in this template global and user scope. For more information visit the [wiki service locator page].
-
-[service_locator]: ./lib/di/service_locator.dart
-[GetIt]: https://pub.dev/packages/get_it
-[wiki service locator page]: https://github.com/webfactorymk/flutter-template/wiki/Service-Locator
 
   
 ## Tests
