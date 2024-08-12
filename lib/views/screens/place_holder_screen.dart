@@ -13,7 +13,6 @@ class PlaceHolderScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-
         title: const Text('PlaceholderAPI List'),
       ),
       body: StreamBuilder<List<PlaceHolderModel>>(
